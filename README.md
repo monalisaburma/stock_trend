@@ -18,21 +18,21 @@ The **Stock Trend Predictor** project aims to forecast stock prices using histor
 
 ## Installation
 1. Clone the repository:
-``bash
+```bash
 git clone https://github.com/yourusername/Stock-Trend-Predictor.git
 cd Stock-Trend-Predictor
-``
+```
 
 2. Install the required packages:
-``bash
+```bash
 pip install -r requirements.txt
-``
+```
 
 ## Usage
 1. Run the Streamlit Application:
-``bash
+```bash
 streamlit run app.py
-``
+```
 - Input your desired stock symbol, date range, and other parameters.
 - The app will display historical data, moving averages, and predicted stock prices.
 
