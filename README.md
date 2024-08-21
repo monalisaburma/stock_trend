@@ -11,10 +11,10 @@ The **Stock Trend Predictor** project aims to forecast stock prices using histor
 - `Interactive Visualization:` Created a Streamlit web application for visualizing historical stock prices, moving averages, and model predictions.
 
 ## Project Structure
-`stock_price.ipynb:` Jupyter notebook containing the complete process of data collection, preprocessing, model development, and evaluation for stock price prediction.
-`stock.py:` Python script that includes the implementation of the LSTM model and related functions for stock price prediction.
-`Latest_stock_price_model.keras:` The saved Keras model file for the latest trained LSTM model used for predicting stock prices.
-`requirements.txt:` A list of Python packages and dependencies required to run the project.
+- `stock_price.ipynb:` Jupyter notebook containing the complete process of data collection, preprocessing, model development, and evaluation for stock price prediction.
+- `stock.py:` Python script that includes the implementation of the LSTM model and related functions for stock price prediction.
+- `Latest_stock_price_model.keras:` The saved Keras model file for the latest trained LSTM model used for predicting stock prices.
+- `requirements.txt:` A list of Python packages and dependencies required to run the project.
 
 ## Installation
 1. Clone the repository:
@@ -33,13 +33,13 @@ pip install -r requirements.txt
 ``bash
 streamlit run app.py
 ``
-Input your desired stock symbol, date range, and other parameters.
-The app will display historical data, moving averages, and predicted stock prices.
+- Input your desired stock symbol, date range, and other parameters.
+- The app will display historical data, moving averages, and predicted stock prices.
 
 2. View the Tableau Notebook:
 
-[Link to Tableau Notebook](https://public.tableau.com/views/AAPLstockanalysis_17222744580350/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-The Tableau workbook provides additional visual insights into the stock trends and prediction analysis.
+- [Link to Tableau Notebook](https://public.tableau.com/views/AAPLstockanalysis_17222744580350/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- The Tableau workbook provides additional visual insights into the stock trends and prediction analysis.
 
 ## Results
 - The LSTM model successfully predicted stock prices with a reasonable level of accuracy, as indicated by the RMSE value.
@@ -52,5 +52,5 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries, please contact (monalisaburma@gmail.com)
+For any inquiries, please contact monalisaburma@gmail.com 
 
